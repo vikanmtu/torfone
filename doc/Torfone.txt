@@ -1,0 +1,61 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Torfone V 1.4 resources for download (14.07.2019)
+
+===============Binaries:===================
+
+installation for for Android 4.1 +
+http://torfone.org/download/Torfone.apk  
+SHA512: df524c656402d0fcc4b36b7406095f6e9b8c86814d197ef44eebd60ac1932df947747873a85c582481f4b6aaa339b650515c3f7cb00ef70a851bfee81f9bb255
+
+portable exe for Windows98 +
+http://torfone.org/download/tf_exe_win_140719.zip
+SHA512: 3a33a79618b48cf50b036feee6e1cb37c9df049035942b099bdda6addf76076cc7ab7ffaf8999b03d005c3daf7f48f83be9269d0504a39800f41761d5a5ed2c0
+
+statically linked binary with X11 GUI for linux x86
+http://torfone.org/download/tf_bin_linux_x86_140719.zip
+SHA512: 3dfb88eb7dcf81680dca5ce8d13b8733ca8245e553779f4e679402cbf7a6a88ad2480d1178bd89915c8168869233585eae79522d01ee3b21e6035ed380f482e2
+
+statically linked binary with X11 GUI for linux ARM (RPi etc)
+http://torfone.org/download/tf_bin_linux_arm_140719.zip
+SHA512: 77cd7198cdc794ff385f83d9e4c14e513c24f00b6ca23bfd8814ed9c726901197141a8006d2514eb4c95eec8ee50eb169319fc59c5193e72e0b926315b6a233a
+
+================Source:=====================
+
+core source GCC/MINGW/NDK  (for statically linked linrary and console app)
+http://torfone.org/download/tf_core_src_140719.zip
+SHA512: e2ae24a8440a9f366ce219ff0a4474d8a3d5a29f682dded0eae8ca909d2a0be13eab3b982bc65ad520b3bc21c899e83f7b112fbb78a9015bb067fa78df7b54bf
+
+linux X11 GUI (for WideStudio) 
+http://torfone.org/download/tf_src_linux_ws_140719.zip
+SHA512: 8e1ae046f21cccc61b2fd2d8131496dcf16f89debae22c6cf82a5792abda65c2bd3bd8419618fb65b0ebcc7b3d18494de27c136f434cfa5149d2f1ed1a3e073d
+
+windows source core+GUI (for Borland Builder6)
+http://torfone.org/download/tf_src_win_bcb_140719.zip
+SHA512: 1da809c8fee2be73cda0e0e48dddd37f2492d1e80c263ec0b523a1cf326df062ef784fc8487f68c3a84b98a9ef7c294552bc681df35c35b364f8f82543a6c942
+
+android source core+GUI (for Embarcadero RAD studio 10.2)
+http://torfone.org/download/tf_src_android_rad_140719.zip
+SHA512: 4e2344353ef2fcd9026bf9863912863cd7adbbbe2b88417b22fecf51d2995da8dfd5d3e511cd18d7f27d17521f5e2410def76ee4a6d3589f46956dc8c2506635
+
+instruction for build Tor statically linked binary for android and linux
+http://torfone.org/download/tor-build-howto_140719.zip  
+SHA512: 287b23950ccf82571fca0734887c736e21c304b2226db38e74295ac286dc83a4799246f6c8823fa4e32d92c48d1ac5dffc081a76ecea72153026bffd9bc9e07a
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (MingW32)
+
+iQIcBAEBAgAGBQJdK19bAAoJELX6Zv/v3h9JX2YQALlo/sv6mnCX9xYSilyWohGW
+GypAXwgKqdklHAfkYsjopEb7tpZSXUHLvPhuApXf+5UAo/STUajLClLw00ysljj8
+S4hnquzfZdfeKQ4OlvteMIbP86BTCzzrhcFJDhAw8IIouiSC76d1F8d0TNSSMON5
+4r+Nhlu5AcLnGhrMGwH02IGlfozcq52L6E55LWbkXm/VYn2ttiwUyabUDEFhj18w
+stPp3wVHbjumqFWll0TFi4QvOALwzkWy8Ft7Rmlt3LGWg//oDHmFodS2K/6WG0qs
+ndSzmIZ9FGrD9LgJ7Rl1DvFGdDgIHDqFKHXUaA5qNe2gpzp5Kyy1yZbqjVre0ahb
+s8W/tWzU3fYnh9yXoG6WEIElcv8D4pUM64fAiypgcOvKuMWxPfdiOAETq0Q+SJCg
++gFyejebRg6OznjEEjYt0fn4nUucWbH8zwjwK3irlcXQIWvsjnTBZuoYJe2siCx3
+NTBDNNnT46E2mGeo8wY8BK+3yqqLuo33rubKJmJMQSG8iUUBd+5yAV+QkDuU6GGQ
+9M/GRwZ9z5/DZXgig2ST0EOaXfIcWzNLndPFShXsto9EzdaV7APre+Qzs+yL79Do
+72mXfVfGNDnOxzmgV5cBUwkaeNGaBgVIyceba99dy1VhFArvngXqXMCrDNvDJHoN
+54wsdPWFmMM0+j3R++Uv
+=JgQV
+-----END PGP SIGNATURE-----
