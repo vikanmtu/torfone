@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{A0284AA4-7302-4455-B5BA-A498E3237421}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Torfone.cbproj">
+            <Dependencies>NotificationService\NotificationService.dproj</Dependencies>
+        </Projects>
+        <Projects Include="NotificationService\NotificationService.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Torfone" DependsOnTargets="NotificationService">
+        <MSBuild Projects="Torfone.cbproj"/>
+    </Target>
+    <Target Name="Torfone:Clean" DependsOnTargets="NotificationService:Clean">
+        <MSBuild Projects="Torfone.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Torfone:Make" DependsOnTargets="NotificationService:Make">
+        <MSBuild Projects="Torfone.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="NotificationService">
+        <MSBuild Projects="NotificationService\NotificationService.dproj"/>
+    </Target>
+    <Target Name="NotificationService:Clean">
+        <MSBuild Projects="NotificationService\NotificationService.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NotificationService:Make">
+        <MSBuild Projects="NotificationService\NotificationService.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Torfone;NotificationService"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Torfone:Clean;NotificationService:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Torfone:Make;NotificationService:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
